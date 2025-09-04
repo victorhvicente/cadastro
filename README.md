@@ -1,43 +1,30 @@
-📋 Cadastro de Usuários - Projeto HTML, JavaScript e Bootstrap
-Este projeto é uma aplicação web simples para cadastro de usuários, utilizando HTML5, JavaScript puro e Bootstrap 5 para o layout responsivo.
+# 📋 Cadastro de Usuários com Busca de CEP (ViaCEP)
 
-✨ Funcionalidades:
-Formulário completo para inserir dados do usuário:
+Projeto simples em HTML + JavaScript que permite o **cadastro de usuários**, com preenchimento automático de endereço ao digitar o **CEP**, utilizando a **API pública ViaCEP**.
 
-Nome
+Os dados são salvos no **localStorage**, então não há necessidade de banco de dados ou backend.
 
-E-mail
+---
 
-Telefone
+## 🚀 Funcionalidades
 
-Endereço completo (com busca automática via API ViaCEP)
+- ✅ Cadastro de usuários
+- ✅ Edição e exclusão de usuários
+- ✅ Busca automática de endereço pelo CEP (API ViaCEP)
+- ✅ Validação de campos obrigatórios
+- ✅ Armazenamento local no navegador (localStorage)
 
-Armazenamento dos dados no LocalStorage do navegador.
+---
 
-Visualização dos usuários cadastrados em uma tabela.
+## 🛠️ Tecnologias Utilizadas
 
-Funcionalidades de editar e excluir registros.
+- HTML5
+- CSS (via [Bootstrap 5](https://getbootstrap.com))
+- JavaScript (puro)
+- [ViaCEP API](https://viacep.com.br)
 
-Validação básica de campos obrigatórios.
+---
 
-Estilo responsivo com Bootstrap.
+## 🔗 API Utilizada
 
-🛠 Tecnologias utilizadas:
-HTML5
-
-CSS (via Bootstrap 5)
-
-JavaScript (Vanilla JS)
-
-API pública ViaCEP para preenchimento automático de endereço
-
-💡 Ideal para:
-Este projeto é ideal para quem está começando com desenvolvimento web e quer praticar:
-
-Manipulação de DOM
-
-Armazenamento local (LocalStorage)
-
-Consumo de APIs externas
-
-Uso do Bootstrap para layout responsivo
+### ViaCEP
